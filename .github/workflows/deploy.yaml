@@ -16,6 +16,7 @@ jobs:
 
       - name: Build review-gator
         run: |
+          sudo apt install -y python3-virtualenv
           virtualenv -p python3 --system-site-packages .venv
           source .venv/bin/activate
           pip install -e .
