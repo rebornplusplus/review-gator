@@ -1,0 +1,18 @@
+github:
+  repos:
+    canonical:
+      chisel:
+        review-count: 2
+      chisel-releases:
+        review-count: 2
+      oci-factory:
+        review-count: 2
+      rockcraft:
+        review-count: 2
+      chiselled-python:
+        review-count: 2
+    ubuntu-rocks:
+      dotnet:
+        review-count: 2
+      chiselled-jre:
+        review-count: 2
