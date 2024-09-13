@@ -26,6 +26,7 @@ jobs:
           REVIEW_GATOR_OUTPUT_DIRECTORY: "_site/review-gator"
         run: |
           mkdir -p ${{ env.REVIEW_GATOR_OUTPUT_DIRECTORY }}
+          source .venv/bin/activate
           GITHUB_TOKEN=${{ secrets.PAT }} review-gator \
             --config config.yaml
 
