@@ -5,7 +5,9 @@ on:
     branches:
       - "master"
   schedule:
+    # Run it every 10 mins.
     - cron: "*/10 * * * *"
+  workflow_dispatch:
 
 jobs:
   build:
